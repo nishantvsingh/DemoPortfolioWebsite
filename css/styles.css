@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+  text-align: center;
+  color:#40514E;
+
+}
+h1{
+  color: #66BFBF;
+ font-size: 562.5%;      /*16px=100%=1em  90px==562px it is dynamic font or dynamic */
+                         /* 1rem =1em rem does not get affected by parents font size*/
+  margin-top: 0,auto;
+  font-family: 'Sacramento', cursive;
+  line-height: .8;
+}
+h2{color: #66BFBF;font-size: 2rem;}
+h3{color: #66BFBF;font-size: 1.5rem;}
+
+.anentr{color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top-container{background-color: #E4F9F5;\
+
+  border: solid 0px;
+  padding: 50px;
+  margin: 0;
+
+
+
+}
+.intro{width: 40%; text-align: center; margin: auto auto;}
+.middle-container{
+  background-color:  ;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-family: Verdana;
+  font-weight: lighter;
+
+
+}
+.lastdiv{
+  margin-top: 50px;
+  padding-top: 40px;
+  margin-left: 500px;
+  border: solid 10px;
+  background-color: grey;
+  height: 200px;
+  width: 200px;
+}
+
+
+.cld1{
+  position: relative;
+
+
+}
+.cld2{
+  position: absolute;
+  right : 8%;
+
+
+
+}
+.cld3{
+  position: absolute;
+  left:7%;
+}
+.skill-row{                 /*if we want to wrap all texts below image use clear:left;
+                                it makes sure that nothing is present before on given side it*/
+  margin: 100px auto 100px auto;
+  width:50%;
+  text-align: left;
+
+
+}
+.chilliimg{
+  width: 25%;
+  float:left;
+  margin-right: 30px; /*so that text is 30px away from image*/
+}
+.computerimg{width: 25%; float: right;margin-left: 30px;}
+
+.bottom-container{
+
+  background-color: #66BFBF;padding-top: 50px; padding-bottom: 3px;}
+
+hr{
+
+text-align: center;
+border : dotted #EAF6F6 6px ;     /*border-style-top: dotted */
+border-bottom: none;
+margin: 60px auto;
+width: 5%;
+border-colour: grey;
+
+}
+.two{color: #66BFBF;font-size: 2rem;}
+.one{color: #66BFBF;font-size: 1.2rem;}
+.cont{  width:40%;
+  margin: 35px auto;
+
+}
+a{color:#11999E;
+font-family: sans-serif;
+margin: 10px 20px;
+text-decoration:none;
+}
+a:hover{color: #eaf6f6}
+.copyright{
+  color: #eaf6f6;
+  font-size: .85rem;
+  padding-top: 10px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
